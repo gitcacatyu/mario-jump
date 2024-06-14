@@ -6,6 +6,6 @@
 
 primeiro abre o seu navegador (Chrome)
 
-segundo digitar  https://127.0.0.1:5501/index.html:
+segundo digitar 127.0.0.1:5501/index.html:
 
 
