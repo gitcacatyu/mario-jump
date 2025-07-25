@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="./css/style.css">
-<script src="./js/script.js"defer></script>
-
-    <title>mario jump</title>
-</head>  
+    <title>Começar</title>
+    <style>
+        body{
+            font: normal 15pt Arial;
+            margin-top: 15px ;
+        }
+    </style>
+</head>
 <body>
+        <h3>Mario Jump</h3> 
+        <input type="text" placeholder="Digite Seu Nome" class="te">
+        <input type="button" onclick="comes()" value="Começar"> 
 
- <div class="game-board">
-   <img src="./images/clouds.png" class="clouds">
-  <img src="/images/mario.gif" class="mario">
-  <img src="./images/pipe.png" class="pipe">
-  
- </div>   
+        <script>
+            var come = document.getElementById(come)
+            var te =   document.getElementById(te)
 
-
+            function comes(){
+                if(te != '' && comes == comes ){
+                    location.href = 'comes.html'
+                }else{
+                    alert('Coloque seu nome!')
+                }
+            }
+        function te(){
+            if(te!= ''){
+                return true 
+                comes()
+            }
+        }
+        </script>
 </body>
-</html>   
+</html>
